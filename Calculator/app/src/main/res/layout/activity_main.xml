@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTintMode="add"
+    android:background="#DECA00FF"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/tvValue"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        tools:text="0"
+        android:textSize="50pt"
+        android:textColor="@color/black"
+        android:autofillHints="phone"
+        android:inputType="number"
+        android:labelFor="@id/tvValue"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/BtnOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#85280C"
+        android:text="@string/one"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="35sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="200dp"
+        />
+    <Button
+        android:id="@+id/BtnTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#85280C"
+        android:text="@string/two"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="35sp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="199dp"
+        />
+    <Button
+        android:id="@+id/BtnThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#85280C"
+        android:text="@string/three"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="35sp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="200dp"
+        />
+    <Button
+        android:id="@+id/BtnFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#85280C"
+        android:text="@string/four"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="35sp"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="200dp"
+
+        />
+    <Button
+        android:id="@+id/BtnFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#85280C"
+        android:text="@string/five"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="35sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="280dp"/>
+    <Button
+        android:id="@+id/BtnSix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#85280C"
+        android:text="@string/six"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="35sp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="280dp"/>
+    <Button
+        android:id="@+id/BtnSeven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#85280C"
+        android:text="@string/seven"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="35sp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="280dp"/>
+    <Button
+        android:id="@+id/BtnEight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#85280C"
+        android:text="@string/eight"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="35sp"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="280dp"/>
+    <Button
+        android:id="@+id/BtnNine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#85280C"
+        android:text="@string/nine"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="35sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="360dp"/>
+
+    <Button
+        android:id="@+id/BtnZero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="#85280C"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/zero"
+        android:textSize="35sp" />
+    <Button
+        android:id="@+id/BtnEqualTo"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="#40850C"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/EqualTo"
+        android:textSize="35sp"
+        />
+    <Button
+        android:id="@+id/BtnAddition"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="430dp"
+        android:backgroundTint="#85280C"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/Addition"
+        android:textSize="35sp" />
+    <Button
+        android:id="@+id/BtnDivision"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="430dp"
+        android:backgroundTint="#85280C"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/Division"
+        android:textSize="35sp" />
+    <Button
+        android:id="@+id/BtnProduct"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="#85280C"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/Product"
+        android:textSize="35sp" />
+    <Button
+        android:id="@+id/BtnSubtract"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#85280C"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/Subtract"
+        android:textSize="35sp" />
+    <Button
+        android:id="@+id/BtnBackspace"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#850C0C"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/Backspace"
+        android:textSize="35sp" />
+
+
+
+
+
+</RelativeLayout>

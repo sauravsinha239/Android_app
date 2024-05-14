@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Loginpage</string>
+    <string name="useridInput">Enter User ID</string>
+    <string name="enterPassword">Enter Password</string>
+    <string name="loginB1">LOGIN</string>
+    <string name="loginStart">Login</string>
+    <string name="Massage">Login Successfull</string>
+    <string name="logout">Logout</string>
+</resources>

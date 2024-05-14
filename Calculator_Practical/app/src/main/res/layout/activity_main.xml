@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/tv1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="270dp"
+    android:textSize="30sp"
+    android:text="result"
+    android:textAlignment="textEnd"
+    />
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/et1"
+         android:layout_marginTop="120dp"
+         android:inputType="numberDecimal"
+         android:hint="Enter First Number"
+         android:textSize="30sp"
+         android:padding="10dp"
+         />
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/et2"
+         android:layout_marginTop="180dp"
+         android:inputType="numberDecimal"
+         android:hint="Enter Second Number"
+         android:textSize="30sp"
+         android:padding="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp">
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="30sp"
+        android:layout_margin="5dp"
+        android:background="#3F51B5"/>
+        <Button
+            android:id="@+id/Sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="30sp"
+            android:layout_margin="5dp"
+            android:background="#3F51B5"/>
+        <Button
+            android:id="@+id/Mul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:textSize="30sp"
+            android:layout_margin="5dp"
+            android:background="#3F51B5"/>
+        <Button
+            android:id="@+id/Div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textSize="30sp"
+            android:layout_margin="5dp"
+            android:background="#3F51B5"/>
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:textSize="30sp"
+            android:layout_margin="5dp"
+            android:background="#3F51B5"/>
+
+
+</LinearLayout>
+
+
+</RelativeLayout>

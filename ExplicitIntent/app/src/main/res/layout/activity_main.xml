@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    >
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="@drawable/user_3297"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="30dp"
+
+        />
+    <!-- SAURAV -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loginStart"
+        android:textSize="50sp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="170dp"
+        android:textColor="#000000"
+
+
+        />
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:autofillHints="emailAddress"
+        android:inputType="textEmailAddress"
+        android:hint="@string/useridInput"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:padding="10dp"
+        android:background="@drawable/shape"
+        />
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:hint="@string/enterPassword"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:padding="10dp"
+        android:background="@drawable/shape"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loginB1"
+        android:textSize="25sp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="500dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/LoginBt"
+        />
+
+
+</RelativeLayout>
